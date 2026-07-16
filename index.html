@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Food, LLC - Our Menu</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap 3.3.7 CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="top">
+  
+  <!-- Decorative Blobs -->
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <header>
+    <!-- Navbar that scrolls away (no navbar-fixed-top) -->
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Navbar Brand -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Food, LLC</a>
+        </div>
+
+        <!-- Mobile Dropdown Menu (only visible on xs screens) -->
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs text-center">
+            <li><a href="#chicken">Chicken</a></li>
+            <li><a href="#beef">Beef</a></li>
+            <li><a href="#sushi">Sushi</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="main-content" class="container reveal">
+    <h1 id="menu-title" class="text-center">Our Menu</h1>
+
+    <div class="row stagger-list">
+      <!-- Chicken Section -->
+      <section id="chicken" class="col-md-4 col-sm-6 col-xs-12">
+        <div class="menu-item-box nature-card">
+          <h3 class="text-center">Chicken</h3>
+          <div class="card-image-wrapper">
+             <img src="images/organic_ingredients.png" alt="Organic Chicken Ingredients" class="img-responsive rounded-blob">
+          </div>
+          <p class="mt-4">
+            Embrace the earthy essence of our free-range chicken, slow-cooked with organic herbs and natural spices. 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius nunc ac congue varius. 
+            Donec aliquet velit id est vehicula, vel pellentesque orci efficitur.
+          </p>
+          <p>
+            Phasellus ullamcorper mi a lectus interdum, in pellentesque tortor viverra. Ut feugiat, velit a congue 
+            tincidunt, est quam ullamcorper lorem, in elementum tortor dui id velit. Aliquam nec arcu ac felis 
+            congue venenatis eget id metus. Nullam accumsan congue arcu a egestas. 
+          </p>
+          <p>
+            Sed quis lacus vitae nisi ullamcorper suscipit id sit amet risus. Proin consequat ex at est fringilla, 
+            eget lacinia ipsum elementum. Etiam pharetra dolor ut velit dictum dignissim. Nulla rutrum, magna vel cursus faucibus, lectus ante euismod diam, 
+            id faucibus nisl velit in diam.
+          </p>
+          <p>
+            <em>Ethically sourced, sustainably prepared.</em>
+          </p>
+          <div class="back-to-top text-center"><a href="#top" class="btn-primary-custom">Back to Top</a></div>
+        </div>
+      </section>
+
+      <!-- Beef Section -->
+      <section id="beef" class="col-md-4 col-sm-6 col-xs-12">
+        <div class="menu-item-box nature-card">
+          <h3 class="text-center">Beef</h3>
+          <div class="card-image-wrapper">
+             <img src="images/gourmet_dish.png" alt="Gourmet Beef Dish" class="img-responsive rounded-blob-alt">
+          </div>
+          <p class="mt-4">
+            A beautifully plated modern sustainable gourmet dish. Featuring pasture-raised beef with deep purple and earthy green accents.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius nunc ac congue varius. 
+            Donec aliquet velit id est vehicula, vel pellentesque orci efficitur.
+          </p>
+          <p>
+            Phasellus ullamcorper mi a lectus interdum, in pellentesque tortor viverra. Ut feugiat, velit a congue 
+            tincidunt, est quam ullamcorper lorem, in elementum tortor dui id velit. Aliquam nec arcu ac felis 
+            congue venenatis eget id metus. Nullam accumsan congue arcu a egestas. 
+          </p>
+          <p>
+            Sed quis lacus vitae nisi ullamcorper suscipit id sit amet risus. Proin consequat ex at est fringilla, 
+            eget lacinia ipsum elementum. Etiam pharetra dolor ut velit dictum dignissim. Nulla rutrum, magna vel cursus faucibus, lectus ante euismod diam, 
+            id faucibus nisl velit in diam.
+          </p>
+          <p>
+            <em>Zero waste, maximum flavor.</em>
+          </p>
+          <div class="back-to-top text-center"><a href="#top" class="btn-primary-custom">Back to Top</a></div>
+        </div>
+      </section>
+
+      <!-- Sushi Section -->
+      <section id="sushi" class="col-md-4 col-sm-12 col-xs-12">
+        <div class="menu-item-box nature-card">
+          <h3 class="text-center">Sushi</h3>
+          <div class="card-image-wrapper">
+             <img src="images/hero_bg.png" alt="Fresh Sushi" class="img-responsive rounded-blob">
+          </div>
+          <p class="mt-4">
+            Wild-caught and sustainably sourced seafood, paired with organic rice and hand-foraged seaweed.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius nunc ac congue varius. 
+            Donec aliquet velit id est vehicula, vel pellentesque orci efficitur.
+          </p>
+          <p>
+            Phasellus ullamcorper mi a lectus interdum, in pellentesque tortor viverra. Ut feugiat, velit a congue 
+            tincidunt, est quam ullamcorper lorem, in elementum tortor dui id velit. Aliquam nec arcu ac felis 
+            congue venenatis eget id metus. Nullam accumsan congue arcu a egestas. 
+          </p>
+          <p>
+            Sed quis lacus vitae nisi ullamcorper suscipit id sit amet risus. Proin consequat ex at est fringilla, 
+            eget lacinia ipsum elementum. Etiam pharetra dolor ut velit dictum dignissim. Nulla rutrum, magna vel cursus faucibus, lectus ante euismod diam, 
+            id faucibus nisl velit in diam.
+          </p>
+          <p>
+            <em>Fresh from the ocean.</em>
+          </p>
+          <div class="back-to-top text-center"><a href="#top" class="btn-primary-custom">Back to Top</a></div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- jQuery and Bootstrap 3 JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <!-- Empty Custom JS as requested -->
+  <script src="js/script.js"></script>
+</body>
+</html>
